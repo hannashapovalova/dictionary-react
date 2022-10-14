@@ -8,13 +8,38 @@
 
 .header-block {
   background-color: #5c8ed8;
-  height: 155px;
-  padding-top: 90px;
+  height: 167px;
+  padding-top: 5px;
 }
 
-.header-block h1 {
-  font-size: 90px;
-  text-align: center;
+.slice-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 15rem;
+  width: 100%;
+}
+.slice {
+  position: absolute;
+  font-size: 15rem;
+  line-height: 1.1;
+  transition: transform 0.2s ease;
+}
+
+.slice-top {
+  clip-path: polygon(100% 0, 100% 0%, 0 100%, 0 0);
+}
+
+.slice-bottom {
+  clip-path: polygon(100% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.slice-box:hover .slice-top {
+  transform: translateX(-30px);
+}
+
+.slice-box:hover .slice-bottom {
+  transform: translateX(30px);
 }
 
 .information-block,

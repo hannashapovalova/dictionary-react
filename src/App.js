@@ -5,9 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="header-block">
-        <h1>
-          Dictionary
-        </h1>
+        <div className="slice-box">
+          <span className="slice slice-top">Dictionary</span>
+          <span className="slice slice-bottom">Dictionary</span>
+        </div>
       </header>
       <main className="container information-block">
         <div className="search-form-block">

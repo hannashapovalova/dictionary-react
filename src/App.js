@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 import Dictionary from './Dictionary';
 
@@ -11,7 +11,7 @@ function App() {
           <span className="slice slice-bottom">Dictionary</span>
         </div>
       </header>
-      
+
       <Dictionary />
 
       <footer className="footer-block">

@@ -1,0 +1,17 @@
+.information-block,
+.footer-block {
+    background-color: #DDE1E7;
+    margin-top: 105px;
+}
+
+.search-form-block,
+.word-block,
+.noun-block,
+.verb-block,
+.gallery-block {
+    border-radius: 20px;
+    box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+    width: 1290px;
+    padding: 40px;
+    margin-top: 25px;
+}

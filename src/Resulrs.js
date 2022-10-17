@@ -1,6 +1,7 @@
 import React from 'react';
 import './Results.css';
 import Meaning from './Meaning';
+import Phonetics from './Phonetics';
 
 export default function Results(props) {
   if (props.results) {
@@ -10,14 +11,13 @@ export default function Results(props) {
           <h2>
            {props.results.word}
           </h2>
-          <button
-           type="button" 
-           className="btn btn-outline-info">
-            Listen
-          </button>
-          <p>
-            /ˈsʌnˌsɛt/
-          </p>
+          {props.results.phonetics.map(function (phonetic, index) {
+            return (
+              <div key={index}>
+                <Phonetics phonetic={phonetic} />
+              </div>
+            );
+          })}
         </div>
 
           <div className="noun-block">

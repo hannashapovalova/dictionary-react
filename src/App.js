@@ -12,7 +12,7 @@ function App() {
         </div>
       </header>
 
-      <Dictionary />
+      <Dictionary defaultKeyword="sunset"/>
 
       <footer className="footer-block">
         This project was coded by{" "}

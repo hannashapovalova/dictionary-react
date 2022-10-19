@@ -1,6 +1,12 @@
-.information-block,
-.footer-block {
+.information-block {
     background-color: #DDE1E7;
     margin-top: 105px;
+}
+
+.caption {
+    margin-top: -12px;
+    font-size: small;
+    margin-left: 5px;
+    color: #666C75;
 }
 

@@ -1,0 +1,19 @@
+.sound {
+    text-decoration: none;
+    color: #5c8ed8;
+    border: 1px solid #5c8ed8;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: all 150ms ease-in-out;
+}
+
+.sound i {
+    margin-left: 15px;
+}
+
+.transcription {
+    font-size: 20px;
+    color: #666C75;
+    margin-top: 15px;
+    margin-bottom: 0;
+}

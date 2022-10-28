@@ -57,3 +57,36 @@
 .link:hover {
   cursor: pointer;
 }
+
+
+/* @media (max-width: 900px) {
+  .slice-box {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      height: 15rem;
+      width: 100%;
+    }
+  
+    .slice {
+      position: absolute;
+      font-size: 15rem;
+      transition: 0;
+    }
+  
+    .slice-top {
+      clip-path: 0;
+    }
+  
+    .slice-bottom {
+      clip-path: 0;
+    }
+  
+    .slice-box:hover .slice-top {
+      transform: 0;
+    }
+  
+    .slice-box:hover .slice-bottom {
+      transform: 0;
+    }
+} */
